@@ -59,16 +59,22 @@ main
     align-items: center;
     margin-top: 4vh;
 }
+input:focus{
+    box-shadow: 0 0 11px rgb(75, 197, 96);
+}
+/* input:hover{
+    box-shadow: 0 0 11px rgb(62, 62, 151);
+} */
 #i1{
     position:absolute;
     /* padding-right: 35vw; */
-    left: 30.5vw;
+    left: 32.5vw;
     cursor:text;
 }
 #i2{
     position: absolute;
     /* padding-left: 35vw; */
-    left: 68vw;
+    left: 66.5vw;
     cursor:pointer;
 }
 #voice{
@@ -76,7 +82,7 @@ main
     align-items: center;
 }
 input{
-    width: 36vw;
+    width: 33vw;
     padding: 1.8vh 0 2vh 5vw;
     border-radius: 20vh;
     outline: none;
