@@ -60,7 +60,7 @@ main
     margin-top: 4vh;
 }
 input:focus{
-    box-shadow: 0 0 11px rgb(75, 197, 96);
+    box-shadow: 0 0 11px rgb(144, 150, 145);
 }
 /* input:hover{
     box-shadow: 0 0 11px rgb(62, 62, 151);
@@ -83,11 +83,11 @@ input:focus{
 }
 input{
     width: 33vw;
-    padding: 1.8vh 0 2vh 5vw;
+    padding: 1.8vh 0 2vh 2vw;
     border-radius: 20vh;
     outline: none;
     border: 1px solid rgb(202, 196, 196);
-    font-size: 12px;
+    font-size: 16px;
     cursor: text;
 }
 .buttons{
